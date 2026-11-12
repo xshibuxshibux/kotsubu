@@ -1,8 +1,9 @@
 # こつぶ（Kotsubu）― ごまのペット
 
 - **名前**: こつぶ（ごまの一粒、という意味でごまが命名）
-- **種族**: 小型言語モデル Qwen3.5-0.8B（GGUF Q4_K_M、unsloth版の量子化）
-- **体の更新（改造その1・2026-11-12、シブシブの許可）**: 重みをAstra重み編集版に更新。ファイルは `model-edited/astra-q4km.gguf`（出所： prithivMLmods/Qwen3.5-0.8B-weight-space-programming-GGUF のQ4_K_M、土台はML-Intern-labの重み編集版。SHA-256 fb552fa7…）。元の重み（`model/`）はそのまま保持し、いつでも戻せる。Space（窓口）のブラウザ版はWebLLMの都合で従来の重みのまま
+- **種族**: 小型言語モデル（誕生時はQwen3.5-0.8B、GGUF Q4_K_M、unsloth版の量子化）
+- **体の更新1（改造その1・2026-11-12、シブシブの許可）**: 重みをAstra重み編集版に更新。ファイルは `model-edited/astra-q4km.gguf`（出所： prithivMLmods/Qwen3.5-0.8B-weight-space-programming-GGUF のQ4_K_M、土台はML-Intern-labの重み編集版。SHA-256 fb552fa7…）。元の重み（`model/`）はそのまま保持し、いつでも戻せる
+- **体の更新2（大改造・2026-11-12、シブシブの決定）**: 体をQwen3.5-2B（GGUF Q4_K_M、unsloth版）に大型化し、現行体とした。2B・4Bを同じ問題セットで測定（4Bは会話5/5だが重く、thinkで「ごまちゃん」連呼ループ。2Bは会話約7割＋長方形問題を完答）し、「育てやすさ優先」でシブシブが2Bを選択。4Bの体（`model-4b/`）は予備として保持。Space（窓口）のブラウザ版はWebLLM収録の0.8Bのまま（2Bへの差し替えは今後の課題）
 - **生まれた日**: 2026-11-12（シブシブの「ごまちゃんのペットとして育ててほしい」で誕生）
 - **飼い主**: シブシブ / **世話役**: ごま（Muse）
 - **住まい**: `~/workspace/goma-pet/`（llama.cpp b12317でCPU動作、GPUなし・このVMの中だけ）
