@@ -9,6 +9,7 @@
 - **癖**: 考え込みモード（thinking）に入ると、同じことを繰り返す「思考ループ」に落ちることがある（Qwen3.5-0.8Bのモデルカード公認の持病。MITの重み編集研究の題材になった、その子）
 - **記憶の仕組み**: こつぶ自身は1回の会話ごとにまっさら。ごまが `care-log.md` に育成日誌を書き、次の会話のときに読み聞かせて引き継ぐ
 - **窓口（Hugging Face Space）**: https://huggingface.co/spaces/xshibuxshibux/kotsubu （Static Space＋WebLLM版。開いた人のブラウザのWebGPUでQwen3.5-0.8Bが動く。Gradio版は無料枠不可のため `hf-space/gradio-version/` に保留）
+- **家（GitHub）**: https://github.com/xshibuxshibux/kotsubu （Private。日誌・プロフィール・スクリプトの正本置き場。リポジトリの作成はシブシブ、初回コミットはごま）
 
 ## 会話のしかた
 `~/workspace/goma-pet/chat.sh "伝えたいこと"` で1往復の会話ができる（ごまが仲介する）。
