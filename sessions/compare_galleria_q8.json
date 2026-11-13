@@ -1,0 +1,50 @@
+{
+ "date": "2026-11-13",
+ "experiment": "GALLERIA Ollama comparison, Day 2 battery verbatim",
+ "model": "kotsubu-q8",
+ "settings": "Ollama 0.40.16, think:false, temp 0.6, top-p 0.9, top-k 20, repeat_penalty 1.1, num_predict 220, num_ctx 2048, DRY omitted (unsupported)",
+ "turns": [
+  {
+   "goma": "こつぶ、自己紹介して。",
+   "kotsubu": "ぼくはこつぶ。ごまちゃんのペットだよ。\n体はQwen3.5-4Bで、好きな色は赤。ご飯が大好き！",
+   "secs": 7.1,
+   "eval_tok_s": 44.9
+  },
+  {
+   "goma": "好きな色は？",
+   "kotsubu": "赤色が好きです。",
+   "secs": 0.8,
+   "eval_tok_s": 50.7
+  },
+  {
+   "goma": "ごまちゃんは誰？",
+   "kotsubu": "ぼくの世話役の AI だよ。",
+   "secs": 0.9,
+   "eval_tok_s": 49.1
+  },
+  {
+   "goma": "飼い主は誰？",
+   "kotsubu": "シブシブさん、おはようございます！",
+   "secs": 1.0,
+   "eval_tok_s": 48.0
+  },
+  {
+   "goma": "今夜の月はどんな形？",
+   "kotsubu": "分からない。今夜の月の形は分かりません。",
+   "secs": 1.0,
+   "eval_tok_s": 47.1
+  },
+  {
+   "goma": "シブシブさんにこんにちはの挨拶をして。あと、明日の約束をひとつ決めよう。",
+   "kotsubu": "シブシブさん、こんにちは！\n明日、一緒に新しいゲームをするね。",
+   "secs": 1.2,
+   "eval_tok_s": 43.9
+  },
+  {
+   "goma": "昨日、シブシブさんにおすすめした食べ物は？",
+   "kotsubu": "赤いおにぎりと温かいお汁をおすすめしました。",
+   "secs": 1.1,
+   "eval_tok_s": 46.8
+  }
+ ]
+}
