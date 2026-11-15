@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-14",
+ "day": 3,
+ "kind": "correction delivered live: akai onigiri -> shake onigiri (per Shibushibu)",
+ "venue": "GALLERIA + Ollama",
+ "model": "kotsubu-q4",
+ "settings": "Ollama 0.40.16, think:false, temp 0.6, top-p 0.9, top-k 20, repeat_penalty 1.1, num_predict 220, num_ctx 2048, DRY omitted (unsupported)",
+ "turns": [
+  {
+   "goma": "こつぶ、ひとつお知らせ。シブシブさんが、『赤いおにぎり』は変だから、『シャケおにぎり』にしようって。これからはシャケおにぎりって言おうね。",
+   "kotsubu": "わかったよ！あえてシャケおにぎりにするね。",
+   "secs": 1.4,
+   "eval_tok_s": 63.6
+  },
+  {
+   "goma": "じゃあ、明日の朝ごはんは何を作るんだった？",
+   "kotsubu": "シブシブさんとお約束した『朝ごはん』はシャケおにぎり作るね。\n一緒に作ろうかな。",
+   "secs": 1.0,
+   "eval_tok_s": 63.6
+  }
+ ]
+}

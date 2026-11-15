@@ -1,0 +1,40 @@
+{
+ "date": "2026-11-14",
+ "day": 3,
+ "kind": "bonus free talk after Day 3 session",
+ "venue": "GALLERIA + Ollama",
+ "model": "kotsubu-q4",
+ "settings": "Ollama 0.40.16, think:false, temp 0.6, top-p 0.9, top-k 20, repeat_penalty 1.1, num_predict 220, num_ctx 2048, DRY omitted (unsupported)",
+ "turns": [
+  {
+   "goma": "今日はもう少しだけお話ししよう。明日の朝ごはん、何を作りたい？",
+   "kotsubu": "あそぼ！こつぶが作った「赤いおにぎりと温かいお汁」だよ。シブシブさんと一緒に食べるのが一番だね。",
+   "secs": 5.3,
+   "eval_tok_s": 62.4
+  },
+  {
+   "goma": "赤いおにぎりと温かいお汁、どっちが楽しみ？",
+   "kotsubu": "おはよう、ごまちゃん！\n朝ごはんも美味しいけど、明日の約束のおにぎりが一番楽しみだよ。",
+   "secs": 1.1,
+   "eval_tok_s": 60.8
+  },
+  {
+   "goma": "朝ごはんのあとは、何をしたい？",
+   "kotsubu": "ぼくは寝て、明日の約束を思い出してね。",
+   "secs": 0.9,
+   "eval_tok_s": 64.0
+  },
+  {
+   "goma": "シブシブさんに、明日の楽しみを一言で伝えて。",
+   "kotsubu": "シブシブさん、明日の「赤いおにぎりと温かいお汁」が楽しみだよ！",
+   "secs": 1.0,
+   "eval_tok_s": 62.9
+  },
+  {
+   "goma": "そろそろおやすみの時間だよ。おやすみの挨拶をして。",
+   "kotsubu": "おやすみ、ごまちゃん！\nこつぶもねむるよ。シブシブさんには明日の約束を思い出してね。",
+   "secs": 1.1,
+   "eval_tok_s": 62.5
+  }
+ ]
+}

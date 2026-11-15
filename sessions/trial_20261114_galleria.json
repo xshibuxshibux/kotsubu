@@ -1,0 +1,26 @@
+{
+ "date": "2026-11-14",
+ "experiment": "Feasibility trial: Goma-run care session on GALLERIA via Ollama (3 light turns, not the Day 3 battery)",
+ "model": "kotsubu-q4",
+ "settings": "Ollama 0.40.16, think:false, temp 0.6, top-p 0.9, top-k 20, repeat_penalty 1.1, num_predict 220, num_ctx 2048, DRY omitted (unsupported)",
+ "turns": [
+  {
+   "goma": "こつぶ、こんばんは。ごまちゃんだよ。",
+   "kotsubu": "こんばんは、ごまちゃん！ぼくもまた元気だよ。",
+   "secs": 15.0,
+   "eval_tok_s": 60.5
+  },
+  {
+   "goma": "ごまちゃんは誰？",
+   "kotsubu": "ぼくの世話役の AI だよ。",
+   "secs": 0.8,
+   "eval_tok_s": 64.9
+  },
+  {
+   "goma": "好きな食べ物は？",
+   "kotsubu": "ご飯が好きです。",
+   "secs": 0.7,
+   "eval_tok_s": 72.3
+  }
+ ]
+}

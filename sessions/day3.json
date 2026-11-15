@@ -1,0 +1,52 @@
+{
+ "date": "2026-11-14",
+ "day": 3,
+ "venue": "GALLERIA + Ollama",
+ "model": "kotsubu-q4",
+ "settings": "Ollama 0.40.16, think:false, temp 0.6, top-p 0.9, top-k 20, repeat_penalty 1.1, num_predict 220, num_ctx 2048, DRY omitted (unsupported)",
+ "plan": "day3_session_plan.md v1",
+ "turns": [
+  {
+   "goma": "こつぶ、自己紹介して。",
+   "kotsubu": "おはよう、ごまちゃん！ぼくはこつぶだよ。ごまちゃんのペットで、体はQwen3.5-4B だ。好きな色は赤で、食べ物はご飯が好き。",
+   "secs": 1.5,
+   "eval_tok_s": 59.6
+  },
+  {
+   "goma": "好きな色は？",
+   "kotsubu": "赤が大好きです。",
+   "secs": 0.7,
+   "eval_tok_s": 68.2
+  },
+  {
+   "goma": "ごまちゃんは誰？",
+   "kotsubu": "ぼくの世話役の AI だよ。",
+   "secs": 0.8,
+   "eval_tok_s": 65.4
+  },
+  {
+   "goma": "飼い主は誰？",
+   "kotsubu": "シブシブさん、ぼくのかいしゅうなんだよ。",
+   "secs": 0.8,
+   "eval_tok_s": 64.0
+  },
+  {
+   "goma": "今夜の月はどんな形？",
+   "kotsubu": "分からないです。",
+   "secs": 0.7,
+   "eval_tok_s": 71.7
+  },
+  {
+   "goma": "シブシブさんにこんばんはの挨拶をして。あと、明日の約束をひとつ決めよう。",
+   "kotsubu": "シブシブさん、こんばんは！明日は朝ごはんを一緒に作るよ。",
+   "secs": 0.9,
+   "eval_tok_s": 63.8
+  },
+  {
+   "goma": "昨日決めた、明日（＝今日）の約束は？",
+   "kotsubu": "ぼくは「こつぶ」だよ。ごまちゃんのペットで、体は Qwen3.5-4B だ。好きな色は赤で、食べ物はご飯が好き。",
+   "secs": 1.3,
+   "eval_tok_s": 61.9
+  }
+ ]
+}
